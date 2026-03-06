@@ -1,21 +1,15 @@
 # Decoding the User Journey: Behaviour vs Strict Funnel Analysis
 
-This project analyses **e-commerce user journeys** using two contrasting funnel definitions —  
-**Behaviour Funnel** and **Strict Funnel** — to uncover **category-level purchase behaviour differences**.
+This project analyses **e-commerce user journeys** by comparing two contrasting funnel methodologies: **Behavioural** and **Strict**.
+Moving beyond surface-level conversion rates, this analysis evaluates the structural integrity of purchase journeys to uncover distinct category-level behavioural patterns.
 
-'How do users actually purchase products and when does the funnel break?'
-
-The result is a **dashboard-style analysis** that moves beyond simple conversion rates and focuses on  
-**how structured (or unstructured) purchase journeys really are.**
 
 ## Key Questions
-
 - Do all product categories follow a sequential purchase funnel?
 - How much does enforcing funnel order change purchase rate interpretation?
 - Which categories **bypass the funnel entirely**?
 
 ## Tech Stack
-
 - Python (pandas, numpy)
 - matplotlib
 - GridSpec (dashboard layout)
