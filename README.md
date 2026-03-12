@@ -1,4 +1,4 @@
-# Decoding the User Journey: Behaviour vs Strict Funnel Analysis
+# Decoding the User Journey: Behavioural vs Strict Funnel Analysis
 
 This project analyses **e-commerce user journeys** by comparing two contrasting funnel methodologies: **Behavioural** and **Strict**.
 Moving beyond surface-level conversion rates, this analysis evaluates the structural integrity of purchase journeys to uncover distinct category-level behavioural patterns.
