@@ -16,7 +16,7 @@ Moving beyond surface-level conversion rates, this analysis evaluates the struct
 
 ## Core Concepts
 
-### Behaviour Funnel
+### Behavioural Funnel
 - No enforced event order
 - Allows purchases without cart or view
 - Reflects **real-world, non-linear behaviour**
@@ -28,7 +28,7 @@ Moving beyond surface-level conversion rates, this analysis evaluates the struct
 
 ### Funnel Adherence Ratio
 ```text
-Adherence Ratio = Strict Purchase Rate / behaviour Purchase Rate
+Adherence Ratio = Strict Purchase Rate / behavioural Purchase Rate
 ≈ 1.0	Structured, sequential purchase
 ≪ 1.0	Funnel bypass (impulsive / habitual)
 
@@ -41,7 +41,7 @@ Adherence Ratio = Strict Purchase Rate / behaviour Purchase Rate
 2. Standardise timestamps and funnel stages
 3. Map events into funnel stages
 4. Funnel computation:
-    - Behaviour funnel summary
+    - Behavioural funnel summary
     - Strict funnel summary
 5. Metric Derivation:
     - Purchase rate (purchase / view)
@@ -68,7 +68,7 @@ Adherence Ratio = Strict Purchase Rate / behaviour Purchase Rate
 
 ## Dashboard Key Features
 
-1. Overall E-commerce behaviour Funnel (log scale)
+1. Overall E-commerce Behavioural Funnel (log scale)
     - Captures actual user actions
     - Log scale used due to extreme imbalance between View and downstream events
 
@@ -76,10 +76,10 @@ Adherence Ratio = Strict Purchase Rate / behaviour Purchase Rate
 
     - Enforces sequential logic
     - Enables meaningful drop-off interpretation
-    - Serves as contrast to behaviour funnel
+    - Serves as contrast to behavioural funnel
 
 3. Purchase Rate by Category
-    - Behaviour vs Strict Funnel
+    - Behavioural vs Strict Funnel
         - Grouped bar chart (purchase / view)
         - Same metric, different funnel definitions
         - Shows how funnel enforcement changes interpretation
