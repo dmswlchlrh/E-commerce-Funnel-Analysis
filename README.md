@@ -10,8 +10,7 @@ Moving beyond surface-level conversion rates, this analysis evaluates the struct
 - Which categories **bypass the funnel entirely**?
 
 ## Tech Stack
-- Python (pandas, numpy)
-- matplotlib
+- Python (pandas, numpy, matplotlib)
 - GridSpec (dashboard layout)
 
 ## Core Concepts
